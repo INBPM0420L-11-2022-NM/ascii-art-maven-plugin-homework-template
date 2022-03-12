@@ -9,6 +9,7 @@ Készíts egy Maven plugint, amely egy ASCII artot ír a konzolra buildeléskor.
 * Helyezz el három darab, ASCII artot tartalmazó `txt` fájlt a `resources` mappán belül (pl. `llama.txt`).
 * A pluginnak legyen egy célja, ami a három fájl közül egyet kiválaszt véletlenszerűen, és a kimenetre írja a fájlban található ASCII artot.
 * A pluginnak legyen egy paramétere, amivel megadható, hogy melyik artot szeretnénk a kimenetre írni (pl. `llama`). Ebben az esetben véletlenszerű választás nem kell, csak a kért art megjelenítése. Ha helytelen azonosítót kér a felhasználó, akkor pedig egy hibaüzenetet írjon ki a plugin.
+  * **Fontos**: a fájl nevét kiterjesztés nélkül adjuk meg a paraméterben (emiatt szerepel a példában szándékosan csak `llama`, nem pedig `llama.txt`)
 
 A fenti követelményeken kívüli további részletek rád vannak bízva (pl. a plugin neve, a cél neve stb.)
 
