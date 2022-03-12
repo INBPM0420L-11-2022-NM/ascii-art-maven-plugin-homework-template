@@ -4,7 +4,7 @@ Készíts egy Maven plugint, amely egy ASCII artot ír a konzolra buildeléskor.
 
 ### Követelmények:
 
-* Megoldásként clone-ozd le ezt a repót, és hozz létre benne egy `Maven` projektet. A pom.xml-ben tüntesd fel magad a `developers/developer` elemben.
+* Megoldásként clone-ozd le ezt a repót, és hozz létre benne egy `Maven` projektet. A `pom.xml`-ben tüntesd fel magad a `developers/developer` elemben.
   * *Tipp a Maven inicializálásához*: nyisd meg IntelliJ-ben a leclone-ozott mappát, majd a bal oldali projekt struktúrában jobb kattolj a gyökérkönyvtárra, és válaszd az `Add Framework Support...` opciót. Ennek hatására előjön egy menü, ott keresd ki a listából a Mavent és pipáld be.
 * Helyezz el három darab, ASCII artot tartalmazó `txt` fájlt a `resources` mappán belül (pl. `llama.txt`).
 * A pluginnak legyen egy célja, ami a három fájl közül egyet kiválaszt véletlenszerűen, és a kimenetre írja a fájlban található ASCII artot.
@@ -16,6 +16,6 @@ A fenti követelményeken kívüli további részletek rád vannak bízva (pl. a
 
 * Maven plugin készítés: https://www.baeldung.com/maven-plugin
 * ASCII artok: https://www.asciiart.eu/
-* Reading a file from the Classpath szekció ebből a posztból (valamint a `stream-playground` projekt `Repository` kódja): https://www.baeldung.com/reading-file-in-java
+* Reading a file from the Classpath szekció ebből a posztból (valamint a [stream-playground](https://github.com/jeszy75/stream-playground) projekt `Repository` kódja): https://www.baeldung.com/reading-file-in-java
 
 A megoldásodat pushold fel ennek a repónak a master branchébe.
